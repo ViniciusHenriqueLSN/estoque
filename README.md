@@ -1,2 +1,2 @@
 # Estoque
- Trabalho de Conclusão do Curso
+ Trabalho de Conclusão do Curso.
