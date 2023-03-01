@@ -1,0 +1,153 @@
+@charset "UTF=8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color00: #fafafa;
+    --color01: #ebebebec;
+    --color02: #1b1b1b31;
+    --color03: #4acfe0;
+    --color04: #0879ac;
+    --color05: #e82646;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+header{
+    background-color: white;
+    min-width: 50%;
+    min-height: 200px;
+    border: 1px solid var(--color02);
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+h1{
+    font-size: 15px;
+}
+
+nav > a{
+    color: var(--color04);
+    text-decoration: none;
+    flex-direction: column;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--color03);
+}
+
+body{
+    background-color:var(--color00);
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main{
+
+    padding: 3%;
+    border: 1px solid var(--color02);
+}
+
+
+
+th{
+    text-align: right;
+    width: 200px;
+    font-size: 18px;
+}
+.espaco0{
+    width: 700px;
+    text-align: left;
+}
+
+.espaco1{
+    text-align: left;
+}
+
+td{
+    text-align: right;
+    width: 50px;
+    font-size: 14px;
+
+}
+
+td > a{
+    color: var(--color04);
+    text-decoration: none;
+}
+
+td > a:hover{
+    text-decoration: underline;
+    color: var(--color03);
+    padding: 2px;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+button:hover{
+    background-color: var(--color03);
+    text-decoration: underline;
+}
+
+.btn0{
+    background-color: var(--color03);
+    color: White;
+    text-align: center;
+    width: 100px;
+    height: 28px;
+    border: 2px solid var(--color03);
+    border-radius: 3px;
+}
+
+.btn1{
+    background-color: var(--color03);
+    color: White;
+    text-align: center;
+    width: 100px;
+    height: 28px;
+    border: 2px solid var(--color03);
+    border-radius: 3px;
+}
+
+.btn2{
+    color: var(--color04);
+}
+
+.btn3{
+    color: var(--color05);
+}
+
+footer{
+    position: relative;
+}
+
+.main-footer{
+    text-align: center;
+    background-position-x: center;
+}
+
+.textF {
+    text-align: center;
+    font-size: 300;
+
+}
+.textF a:hover{
+    color: var(--color03);
+    text-decoration: underline;
+}
+
+.linkF{
+    text-align: center;
+    text-decoration: none;
+    color: var(--color04);
+    font-size: 500;
+} 

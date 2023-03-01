@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Cadastro de Livros</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <h1>Gerenciador</h1>
+            <a href="livro.html">Livros</a><br><br>
+            <a href="#">Funcionários</a><br><br>
+            <a href="perfil.html">Perfil</a><br><br>
+            <h1>Operacional</h1>
+            <a href="#">Histórico de saida</a><br><br>
+            <a href="#">Histórico de cadastro</a><br><br>
+            <a href="login.html">Sair</a>
+        </nav>
+   </header>
+
+   <main>
+       <h1>Cadastrar Livro</h1>
+        <section>
+            <form action="cadlivro.php">
+                <label for="inome">
+                    <p>Nome: <input type="text" name="nome" id="inome" maxlength="40" size="40" autocomplete="off"></p>
+                </label>
+                <label for="iformato">
+                    <p>Formato: <input type="text" name="formato" id="iformato" autocomplete="off"></p>
+                </label>
+                <label for="ieditora">
+                    <p>Editora: <input type="text" name="editora" id="ieditora" autocomplete="off"></p>
+                </label>
+                <label for="iautor">
+                    <p>Autor: <input type="text" name="autor" id="iautor" autocomplete="off"></p>
+                </label>
+                <label for="ianoedicao">
+                    <p>Ano da Edição: <input type="date" name="anoedicao" id="ianoedicao" autocomplete="off"></p>
+                </label>
+                <label for="iedicao">
+                    <p>Edição: <input type="number" name="edicao" id="iedicao" autocomplete="off"></p>
+                </label>
+                <label for="iidioma">
+                    <p>Idioma: <input type="text" name="idioma" id="iidioma" autocomplete="off"></p>
+                </label>
+                <label for="iisbn">
+                    <p>ISBN: <input type="number" name="isbn" id="iisbn" autocomplete="off"></p>
+                </label>
+                <label for="ipagina">
+                    <p>Páginas: <input type="number" name="paginas" id="ipagina" autocomplete="off"></p>
+                </label>
+                <label for="iunidade">
+                    <p>Unidades: <input type="number" name="unidade" id="iunidade" autocomplete="off"></p>
+                </label>
+                <label for="ipreco">
+                    <p>Preço: <input type="number" name="preco" id="ipreco" autocomplete="off"></p>
+                </label>
+                <label for="icadlivro">
+                    <button name="cadlivro" id="icadlivro" type="submit" autocomplete="off">Cadastrar</button>
+                </label>
+            </form>
+        </section>
+   </main>
+    <footer class="main-footer">
+        <p class="textF">Copyright &COPY; 2023 <a class="linkF" href="index.html">StockApp.</a></p>
+    </footer>
+   
+</body>
+</html>
