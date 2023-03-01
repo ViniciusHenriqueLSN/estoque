@@ -1,0 +1,110 @@
+@charset "UTF=8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --color00: #fafafa;
+    --color01: #ebebebec;
+    --color02: #1b1b1b31;
+    --color03: #4acfe0;
+    --color04: #0879ac;
+    --color05: #e82646;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+header{
+    background-color: white;
+    min-width: 50%;
+    min-height: 200px;
+    border: 1px solid var(--color02);
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.container{
+    min-width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid var(--color02);
+    border-radius: 20px;
+}
+
+.num{
+    font-weight: 800;
+    color: var(--color04);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num1{
+    text-align: center;
+    font-weight:  600;
+}
+.num2{
+    text-align: center;
+    font-weight: 600;
+}
+.num3{
+    text-align: center;
+    font-weight: 600;
+}
+.num4{
+    text-align: left;
+    width: 300px;
+}
+.num5{
+    text-align: center;
+    width: 300px;
+}
+.num6{
+    text-align: right;
+    width: 300px;
+}
+.num7{
+    color: var(--color05);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td > a{
+    color: var(--color04);
+    text-decoration: none;
+}
+
+td > a:hover{
+    text-decoration: underline;
+    color: var(--color03);
+    padding: 2px;
+}
+
+footer{
+    position: relative;
+}
+
+.main-footer{
+    text-align: center;
+    background-position-x: center;
+}
+
+.textF {
+    text-align: center;
+    font-size: 300;
+
+}
+.textF a:hover{
+    color: var(--color03);
+    text-decoration: underline;
+}
+
+.linkF{
+    text-align: center;
+    text-decoration: none;
+    color: var(--color04);
+    font-size: 500;
+} 
